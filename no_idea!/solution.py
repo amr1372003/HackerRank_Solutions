@@ -10,4 +10,4 @@ for i in arr:
     elif i in B:
         happiness -= 1
 
-print(happiness)
+print(happiness)
