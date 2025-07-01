@@ -32,11 +32,9 @@ Print the decoded string with symbols replaced by spaces when they appear betwee
 0 < n, m < 100
 
 ## Example Input/Output
-```
+
 🧪 Sample Input
-perl
-Copy
-Edit
+```
 7 3
 Tsi
 h%x
@@ -45,22 +43,17 @@ sM
 $a 
 #t%
 ir!
+```
 ✅ Sample Output
-csharp
-Copy
-Edit
+```
 This is Matrix#  %!
+```
 🧠 Explanation
 If we read the matrix column-wise, we get this decoded string:
-
-bash
-Copy
-Edit
+```
 This$#is% Matrix#  %!
+```
 Neo then replaces the symbols and spaces that appear between alphanumeric characters with a single space, resulting in:
-
-csharp
-Copy
-Edit
+```
 This is Matrix#  %!
 ```
